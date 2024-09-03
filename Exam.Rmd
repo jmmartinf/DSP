@@ -8,6 +8,8 @@ output:
     toc: true
     toc_depth: 3
     self_contained: false
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "./output") })
 ---
 
 <!-- Bloque de CSS  -->

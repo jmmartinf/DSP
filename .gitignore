@@ -4,4 +4,6 @@
 .Ruserdata
 *.pdf
 *.html
+output/
 Exam_files/
+Exam.Rmd
